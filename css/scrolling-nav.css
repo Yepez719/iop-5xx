@@ -3,10 +3,74 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
-header {
-  padding: 156px 0 100px;
+
+/* Header Image*/
+ .masthead {
+   height: 100vh;
+   min-height: 500px;
+   background-image: url(/images/cityscape.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   margin-bottom: 10px;
+ }
+
+ section {
+   padding: 150px 0;
+ }
+
+h1.font-weight-light {
+     color: white;
 }
 
+p.lead {
+     color:white;
+}
+
+/* Scrolling CSS*/
 section {
   padding: 150px 0;
+}
+
+/* About Section*/
+#about p.lead{
+     color: white;
+}
+
+#about h2{
+     color: white;
+}
+#about ul{
+     color: white;
+}
+
+#about {
+     background-image: linear-gradient(to right, #485563, #29323C );
+     margin-bottom: 10px;
+
+}
+
+/* Portolio Section */
+#portfolio p.lead{
+     color: black;
+}
+
+/* Services Section*/
+#services p.lead{
+     color: white;
+}
+
+#services h2{
+     color: white;
+}
+#services ul{
+     color: white;
+}
+#services {
+     background-image: linear-gradient(to left, #485563, #29323C  );
+}
+
+/* Contact Section*/
+#contact p.lead{
+     color: black;
 }
