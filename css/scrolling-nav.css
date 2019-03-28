@@ -4,11 +4,11 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
 
-/* Header Image*/
+/* Header Image */
  .masthead {
    height: 100vh;
    min-height: 500px;
-   background-image: url(/images/cityscape.jpg);
+   background-image: url(https://images.pexels.com/photos/994883/pexels-photo-994883.jpeg?cs=srgb&dl=black-and-white-clouds-cold-994883.jpg&fm=jpg);
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
@@ -23,54 +23,42 @@ h1.font-weight-light {
      color: white;
 }
 
-p.lead {
-     color:white;
+p.lead1 {
+     font-size: 1.5em;
 }
 
-/* Scrolling CSS*/
+/* Scrolling CSS */
 section {
   padding: 150px 0;
 }
 
-/* About Section*/
-#about p.lead{
-     color: white;
-}
 
-#about h2{
-     color: white;
-}
-#about ul{
-     color: white;
-}
-
-#about {
+/* Body */
+#about, #education, #interests {
      background-image: linear-gradient(to right, #485563, #29323C );
+     height: 100vh;
+     min-height: 500px;
      margin-bottom: 10px;
 
 }
 
-/* Portolio Section */
-#portfolio p.lead{
+#about p, #education p, #interests p {
+     color: white;
+}
+
+#about h2, #education h2, #interests h2 {
+     color: white;
+}
+
+#experience p, #skills p, #contact p {
      color: black;
 }
 
-/* Services Section*/
-#services p.lead{
-     color: white;
-}
-
-#services h2{
-     color: white;
-}
-#services ul{
-     color: white;
-}
-#services {
-     background-image: linear-gradient(to left, #485563, #29323C  );
-}
-
-/* Contact Section*/
-#contact p.lead{
+#experience h2, #skills h2, #contact h2 {
      color: black;
+}
+
+#experience, #skills, #contact  {
+     height: 100vh;
+     min-height: 500px;
 }
